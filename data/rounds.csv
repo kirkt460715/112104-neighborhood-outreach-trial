@@ -1,0 +1,5 @@
+round,reference_date,observation_days,max_letters,min_exposure_prob,as_of,priority_selected,other_selected
+A,2026-05-01,28,60,0.08,2026-06-10,2,2
+B,2026-07-01,28,66,0.08,2026-08-06,2,2
+C,2026-09-01,28,62,0.10,2026-09-15,2,2
+D,2026-11-01,28,51,0.10,2026-11-01,2,2
