@@ -1,0 +1,2095 @@
+{
+  "data_cutoff": "2026-11-03",
+  "plan_date": "2026-11-03",
+  "rounds": {
+    "A": {
+      "round": "A",
+      "status": "estimated",
+      "window_start": "2026-05-01",
+      "window_end": "2026-05-28",
+      "observation_days": 28,
+      "as_of": "2026-06-10",
+      "censor_date": "2026-05-28",
+      "complete": true,
+      "max_letters": 60,
+      "min_exposure_prob": 0.08,
+      "planned_allocation": {
+        "communities": [
+          "C02",
+          "C04",
+          "C07",
+          "C10"
+        ],
+        "letters": 48
+      },
+      "support": {
+        "kind": "feasible",
+        "plan_date": "2026-05-01",
+        "edge_basis": "registered",
+        "effective_edges": [
+          "C01+C02",
+          "C02+C03",
+          "C04+C05",
+          "C05+C06",
+          "C07+C08",
+          "C08+C09",
+          "C10+C11",
+          "C11+C12"
+        ],
+        "feasible_n": 150,
+        "identifiable_n": 126,
+        "cluster_ready_n": 20,
+        "delivery_n": 150,
+        "minimum_opportunity_ok": true,
+        "min_exposure_prob": 0.08
+      },
+      "opportunities": [
+        {
+          "community": "C01",
+          "group": "少办成",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.3,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C02",
+          "group": "少办成",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.5,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C03",
+          "group": "少办成",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.3,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C04",
+          "group": "少办成",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.3,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C05",
+          "group": "少办成",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.3,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C06",
+          "group": "少办成",
+          "p_own": 0.0,
+          "possible_own": false,
+          "note_own": "该轮禁止对该社区发额外邀请，结构上不可能自身获邀",
+          "p_neighbor": 0.4,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C07",
+          "group": "一般",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.26666666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C08",
+          "group": "一般",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.4666666666666667,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C09",
+          "group": "一般",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.26666666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C10",
+          "group": "一般",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.26666666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C11",
+          "group": "一般",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.4666666666666667,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C12",
+          "group": "一般",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.26666666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        }
+      ],
+      "cells": [
+        {
+          "group": "一般",
+          "cell": "own",
+          "communities": [
+            "C07",
+            "C10"
+          ],
+          "communities_n": 2,
+          "eligible": 18,
+          "prior": 0,
+          "known": 17,
+          "done": 7,
+          "pending": 9,
+          "confirmed_none": 1,
+          "awaiting": 1,
+          "future": 0,
+          "rate": 0.4117647058823529
+        },
+        {
+          "group": "一般",
+          "cell": "neighbor",
+          "communities": [
+            "C08",
+            "C11"
+          ],
+          "communities_n": 2,
+          "eligible": 19,
+          "prior": 1,
+          "known": 17,
+          "done": 5,
+          "pending": 11,
+          "confirmed_none": 1,
+          "awaiting": 2,
+          "future": 0,
+          "rate": 0.29411764705882354
+        },
+        {
+          "group": "一般",
+          "cell": "neither",
+          "communities": [
+            "C09",
+            "C12"
+          ],
+          "communities_n": 2,
+          "eligible": 15,
+          "prior": 1,
+          "known": 14,
+          "done": 6,
+          "pending": 7,
+          "confirmed_none": 1,
+          "awaiting": 1,
+          "future": 0,
+          "rate": 0.42857142857142855
+        },
+        {
+          "group": "少办成",
+          "cell": "own",
+          "communities": [
+            "C02",
+            "C04"
+          ],
+          "communities_n": 2,
+          "eligible": 18,
+          "prior": 1,
+          "known": 18,
+          "done": 8,
+          "pending": 8,
+          "confirmed_none": 2,
+          "awaiting": 0,
+          "future": 0,
+          "rate": 0.4444444444444444
+        },
+        {
+          "group": "少办成",
+          "cell": "neighbor",
+          "communities": [
+            "C01",
+            "C03",
+            "C05"
+          ],
+          "communities_n": 3,
+          "eligible": 27,
+          "prior": 0,
+          "known": 24,
+          "done": 8,
+          "pending": 15,
+          "confirmed_none": 1,
+          "awaiting": 3,
+          "future": 0,
+          "rate": 0.3333333333333333
+        },
+        {
+          "group": "少办成",
+          "cell": "neither",
+          "communities": [
+            "C06"
+          ],
+          "communities_n": 1,
+          "eligible": 8,
+          "prior": 0,
+          "known": 7,
+          "done": 2,
+          "pending": 4,
+          "confirmed_none": 1,
+          "awaiting": 1,
+          "future": 0,
+          "rate": 0.2857142857142857
+        }
+      ],
+      "comparisons": [
+        {
+          "comparison": "一般/own vs neither",
+          "label": "一般：自身获邀 vs 自身及邻接均未获邀",
+          "group": "一般",
+          "exposed": "own",
+          "control": "neither",
+          "status": "estimated",
+          "missing": [],
+          "exposed_communities": [
+            "C07",
+            "C10"
+          ],
+          "control_communities": [
+            "C09",
+            "C12"
+          ],
+          "exposed_eligible": 18,
+          "control_eligible": 15,
+          "exposed_known": 17,
+          "control_known": 14,
+          "exposed_done": 7,
+          "control_done": 6,
+          "exposed_awaiting": 1,
+          "control_awaiting": 1,
+          "exposed_rate": 0.4117647058823529,
+          "control_rate": 0.42857142857142855,
+          "resident_rd": -0.016806722689075626,
+          "community_rd": -0.02777777777777779,
+          "ipw_rd": -0.016806722689075626,
+          "ri_p_resident": 1.0,
+          "ri_p_community": 0.9285714285714286,
+          "ri_p_ipw": 1.0,
+          "ri_defined": 140,
+          "ri_total": 150,
+          "bounds": [
+            -0.07777777777777778,
+            0.0444444444444444
+          ],
+          "note": ""
+        },
+        {
+          "comparison": "少办成/neighbor vs neither",
+          "label": "少办成：邻接获邀 vs 自身及邻接均未获邀",
+          "group": "少办成",
+          "exposed": "neighbor",
+          "control": "neither",
+          "status": "estimated",
+          "missing": [],
+          "exposed_communities": [
+            "C01",
+            "C03",
+            "C05"
+          ],
+          "control_communities": [
+            "C06"
+          ],
+          "exposed_eligible": 27,
+          "control_eligible": 8,
+          "exposed_known": 24,
+          "control_known": 7,
+          "exposed_done": 8,
+          "control_done": 2,
+          "exposed_awaiting": 3,
+          "control_awaiting": 1,
+          "exposed_rate": 0.3333333333333333,
+          "control_rate": 0.2857142857142857,
+          "resident_rd": 0.047619047619047616,
+          "community_rd": 0.04563492063492064,
+          "ipw_rd": 0.04761904761904767,
+          "ri_p_resident": 0.5555555555555556,
+          "ri_p_community": 0.5555555555555556,
+          "ri_p_ipw": 0.5555555555555556,
+          "ri_defined": 135,
+          "ri_total": 150,
+          "bounds": [
+            -0.07870370370370372,
+            0.15740740740740738
+          ],
+          "note": "至少一档只有 1 个社区，社区层变异无法与单社区抽样误差分开"
+        },
+        {
+          "comparison": "少办成/own vs neither",
+          "label": "少办成：自身获邀 vs 自身及邻接均未获邀",
+          "group": "少办成",
+          "exposed": "own",
+          "control": "neither",
+          "status": "estimated",
+          "missing": [],
+          "exposed_communities": [
+            "C02",
+            "C04"
+          ],
+          "control_communities": [
+            "C06"
+          ],
+          "exposed_eligible": 18,
+          "control_eligible": 8,
+          "exposed_known": 18,
+          "control_known": 7,
+          "exposed_done": 8,
+          "control_done": 2,
+          "exposed_awaiting": 0,
+          "control_awaiting": 1,
+          "exposed_rate": 0.4444444444444444,
+          "control_rate": 0.2857142857142857,
+          "resident_rd": 0.15873015873015872,
+          "community_rd": 0.1642857142857143,
+          "ipw_rd": 0.15873015873015872,
+          "ri_p_resident": 0.1111111111111111,
+          "ri_p_community": 0.1111111111111111,
+          "ri_p_ipw": 0.1111111111111111,
+          "ri_defined": 135,
+          "ri_total": 150,
+          "bounds": [
+            0.06944444444444442,
+            0.19444444444444442
+          ],
+          "note": "至少一档只有 1 个社区，社区层变异无法与单社区抽样误差分开"
+        }
+      ],
+      "execution": {
+        "deviations": [],
+        "cross_station": {
+          "cross_station_done": 7,
+          "all_done_receipts": 37
+        },
+        "duplicates": {
+          "cases": 93,
+          "duplicate_cases": 0,
+          "extra_receipts": 0
+        },
+        "prior_accepted": 3,
+        "followup": {
+          "done": 36,
+          "not_done": 61,
+          "unknown": 8,
+          "prior": 3
+        }
+      },
+      "community_correlation": 0.0
+    },
+    "B": {
+      "round": "B",
+      "status": "estimated",
+      "window_start": "2026-07-01",
+      "window_end": "2026-07-28",
+      "observation_days": 28,
+      "as_of": "2026-08-06",
+      "censor_date": "2026-07-28",
+      "complete": true,
+      "max_letters": 66,
+      "min_exposure_prob": 0.08,
+      "planned_allocation": {
+        "communities": [
+          "C01",
+          "C05",
+          "C09",
+          "C12"
+        ],
+        "letters": 48
+      },
+      "support": {
+        "kind": "feasible",
+        "plan_date": "2026-07-01",
+        "edge_basis": "registered",
+        "effective_edges": [
+          "C01+C02",
+          "C02+C03",
+          "C02+C08",
+          "C04+C05",
+          "C05+C06",
+          "C05+C10",
+          "C07+C08",
+          "C08+C09",
+          "C10+C11",
+          "C11+C12"
+        ],
+        "feasible_n": 150,
+        "identifiable_n": 140,
+        "cluster_ready_n": 44,
+        "delivery_n": 150,
+        "minimum_opportunity_ok": true,
+        "min_exposure_prob": 0.08
+      },
+      "opportunities": [
+        {
+          "community": "C01",
+          "group": "少办成",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.26666666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C02",
+          "group": "少办成",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.4666666666666667,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C03",
+          "group": "少办成",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.26666666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C04",
+          "group": "少办成",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.26666666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C05",
+          "group": "少办成",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.5466666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C06",
+          "group": "少办成",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.26666666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C07",
+          "group": "一般",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.0,
+          "possible_neighbor": false,
+          "note_neighbor": "全部邻接社区在该轮被禁止干预，结构上不可能邻接获邀"
+        },
+        {
+          "community": "C08",
+          "group": "一般",
+          "p_own": 0.0,
+          "possible_own": false,
+          "note_own": "该轮禁止对该社区发额外邀请，结构上不可能自身获邀",
+          "p_neighbor": 0.8,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C09",
+          "group": "一般",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.0,
+          "possible_neighbor": false,
+          "note_neighbor": "全部邻接社区在该轮被禁止干预，结构上不可能邻接获邀"
+        },
+        {
+          "community": "C10",
+          "group": "一般",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.4,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C11",
+          "group": "一般",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.5,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C12",
+          "group": "一般",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.3,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        }
+      ],
+      "cells": [
+        {
+          "group": "一般",
+          "cell": "own",
+          "communities": [
+            "C09",
+            "C12"
+          ],
+          "communities_n": 2,
+          "eligible": 15,
+          "prior": 1,
+          "known": 14,
+          "done": 5,
+          "pending": 8,
+          "confirmed_none": 1,
+          "awaiting": 1,
+          "future": 0,
+          "rate": 0.35714285714285715
+        },
+        {
+          "group": "一般",
+          "cell": "neighbor",
+          "communities": [
+            "C08",
+            "C10",
+            "C11"
+          ],
+          "communities_n": 3,
+          "eligible": 28,
+          "prior": 1,
+          "known": 25,
+          "done": 10,
+          "pending": 14,
+          "confirmed_none": 1,
+          "awaiting": 3,
+          "future": 0,
+          "rate": 0.4
+        },
+        {
+          "group": "一般",
+          "cell": "neither",
+          "communities": [
+            "C07"
+          ],
+          "communities_n": 1,
+          "eligible": 9,
+          "prior": 0,
+          "known": 9,
+          "done": 4,
+          "pending": 4,
+          "confirmed_none": 1,
+          "awaiting": 0,
+          "future": 0,
+          "rate": 0.4444444444444444
+        },
+        {
+          "group": "少办成",
+          "cell": "own",
+          "communities": [
+            "C01",
+            "C05"
+          ],
+          "communities_n": 2,
+          "eligible": 19,
+          "prior": 0,
+          "known": 17,
+          "done": 7,
+          "pending": 9,
+          "confirmed_none": 1,
+          "awaiting": 2,
+          "future": 0,
+          "rate": 0.4117647058823529
+        },
+        {
+          "group": "少办成",
+          "cell": "neighbor",
+          "communities": [
+            "C02",
+            "C04",
+            "C06"
+          ],
+          "communities_n": 3,
+          "eligible": 26,
+          "prior": 1,
+          "known": 25,
+          "done": 9,
+          "pending": 13,
+          "confirmed_none": 3,
+          "awaiting": 1,
+          "future": 0,
+          "rate": 0.36
+        },
+        {
+          "group": "少办成",
+          "cell": "neither",
+          "communities": [
+            "C03"
+          ],
+          "communities_n": 1,
+          "eligible": 8,
+          "prior": 0,
+          "known": 7,
+          "done": 2,
+          "pending": 5,
+          "confirmed_none": 0,
+          "awaiting": 1,
+          "future": 0,
+          "rate": 0.2857142857142857
+        }
+      ],
+      "comparisons": [
+        {
+          "comparison": "一般/own vs neither",
+          "label": "一般：自身获邀 vs 自身及邻接均未获邀",
+          "group": "一般",
+          "exposed": "own",
+          "control": "neither",
+          "status": "estimated",
+          "missing": [],
+          "exposed_communities": [
+            "C09",
+            "C12"
+          ],
+          "control_communities": [
+            "C07"
+          ],
+          "exposed_eligible": 15,
+          "control_eligible": 9,
+          "exposed_known": 14,
+          "control_known": 9,
+          "exposed_done": 5,
+          "control_done": 4,
+          "exposed_awaiting": 1,
+          "control_awaiting": 0,
+          "exposed_rate": 0.35714285714285715,
+          "control_rate": 0.4444444444444444,
+          "resident_rd": -0.08730158730158727,
+          "community_rd": -0.06944444444444442,
+          "ipw_rd": -0.08730158730158727,
+          "ri_p_resident": 0.43333333333333335,
+          "ri_p_community": 0.5333333333333333,
+          "ri_p_ipw": 0.43333333333333335,
+          "ri_defined": 150,
+          "ri_total": 150,
+          "bounds": [
+            -0.1111111111111111,
+            -0.0444444444444444
+          ],
+          "note": "至少一档只有 1 个社区，社区层变异无法与单社区抽样误差分开"
+        },
+        {
+          "comparison": "少办成/neighbor vs neither",
+          "label": "少办成：邻接获邀 vs 自身及邻接均未获邀",
+          "group": "少办成",
+          "exposed": "neighbor",
+          "control": "neither",
+          "status": "estimated",
+          "missing": [],
+          "exposed_communities": [
+            "C02",
+            "C04",
+            "C06"
+          ],
+          "control_communities": [
+            "C03"
+          ],
+          "exposed_eligible": 26,
+          "control_eligible": 8,
+          "exposed_known": 25,
+          "control_known": 7,
+          "exposed_done": 9,
+          "control_done": 2,
+          "exposed_awaiting": 1,
+          "control_awaiting": 1,
+          "exposed_rate": 0.36,
+          "control_rate": 0.2857142857142857,
+          "resident_rd": 0.07428571428571429,
+          "community_rd": 0.0678571428571429,
+          "ipw_rd": 0.06600985221674877,
+          "ri_p_resident": 0.6,
+          "ri_p_community": 0.6,
+          "ri_p_ipw": 0.6,
+          "ri_defined": 140,
+          "ri_total": 150,
+          "bounds": [
+            -0.028846153846153855,
+            0.13461538461538464
+          ],
+          "note": "至少一档只有 1 个社区，社区层变异无法与单社区抽样误差分开"
+        },
+        {
+          "comparison": "少办成/own vs neither",
+          "label": "少办成：自身获邀 vs 自身及邻接均未获邀",
+          "group": "少办成",
+          "exposed": "own",
+          "control": "neither",
+          "status": "estimated",
+          "missing": [],
+          "exposed_communities": [
+            "C01",
+            "C05"
+          ],
+          "control_communities": [
+            "C03"
+          ],
+          "exposed_eligible": 19,
+          "control_eligible": 8,
+          "exposed_known": 17,
+          "control_known": 7,
+          "exposed_done": 7,
+          "control_done": 2,
+          "exposed_awaiting": 2,
+          "control_awaiting": 1,
+          "exposed_rate": 0.4117647058823529,
+          "control_rate": 0.2857142857142857,
+          "resident_rd": 0.12605042016806722,
+          "community_rd": 0.12400793650793651,
+          "ipw_rd": 0.12605042016806722,
+          "ri_p_resident": 0.07142857142857142,
+          "ri_p_community": 0.07142857142857142,
+          "ri_p_ipw": 0.07142857142857142,
+          "ri_defined": 140,
+          "ri_total": 150,
+          "bounds": [
+            -0.006578947368421073,
+            0.22368421052631576
+          ],
+          "note": "至少一档只有 1 个社区，社区层变异无法与单社区抽样误差分开"
+        }
+      ],
+      "execution": {
+        "deviations": [],
+        "cross_station": {
+          "cross_station_done": 7,
+          "all_done_receipts": 37
+        },
+        "duplicates": {
+          "cases": 93,
+          "duplicate_cases": 0,
+          "extra_receipts": 0
+        },
+        "prior_accepted": 3,
+        "followup": {
+          "done": 37,
+          "not_done": 60,
+          "unknown": 8,
+          "prior": 3
+        }
+      },
+      "community_correlation": 0.0
+    },
+    "C": {
+      "round": "C",
+      "status": "progress_only",
+      "window_start": "2026-09-01",
+      "window_end": "2026-09-28",
+      "observation_days": 28,
+      "as_of": "2026-09-15",
+      "censor_date": "2026-09-15",
+      "complete": false,
+      "max_letters": 62,
+      "min_exposure_prob": 0.1,
+      "planned_allocation": {
+        "communities": [
+          "C02",
+          "C05",
+          "C08",
+          "C11"
+        ],
+        "letters": 54
+      },
+      "support": {
+        "kind": "feasible",
+        "plan_date": "2026-09-01",
+        "edge_basis": "registered",
+        "effective_edges": [
+          "C01+C02",
+          "C02+C03",
+          "C02+C08",
+          "C04+C05",
+          "C05+C06",
+          "C05+C10",
+          "C07+C08",
+          "C08+C09",
+          "C10+C11",
+          "C11+C12"
+        ],
+        "feasible_n": 150,
+        "identifiable_n": 122,
+        "cluster_ready_n": 36,
+        "delivery_n": 150,
+        "minimum_opportunity_ok": true,
+        "min_exposure_prob": 0.1
+      },
+      "opportunities": [
+        {
+          "community": "C01",
+          "group": "少办成",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.26666666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C02",
+          "group": "少办成",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.5466666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C03",
+          "group": "少办成",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.26666666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C04",
+          "group": "少办成",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.26666666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C05",
+          "group": "少办成",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.5466666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C06",
+          "group": "少办成",
+          "p_own": 0.3333333333333333,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.26666666666666666,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C07",
+          "group": "一般",
+          "p_own": 0.0,
+          "possible_own": false,
+          "note_own": "该轮禁止对该社区发额外邀请，结构上不可能自身获邀",
+          "p_neighbor": 0.4,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C08",
+          "group": "一般",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.4,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C09",
+          "group": "一般",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.3,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C10",
+          "group": "一般",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.4,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C11",
+          "group": "一般",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.5,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C12",
+          "group": "一般",
+          "p_own": 0.4,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.3,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        }
+      ],
+      "cells": [
+        {
+          "group": "一般",
+          "cell": "own",
+          "communities": [
+            "C08",
+            "C11"
+          ],
+          "communities_n": 2,
+          "eligible": 19,
+          "prior": 1,
+          "known": 9,
+          "done": 4,
+          "pending": 4,
+          "confirmed_none": 1,
+          "awaiting": 10,
+          "future": 8,
+          "rate": 0.4444444444444444
+        },
+        {
+          "group": "一般",
+          "cell": "neighbor",
+          "communities": [
+            "C07",
+            "C09",
+            "C10",
+            "C12"
+          ],
+          "communities_n": 4,
+          "eligible": 33,
+          "prior": 1,
+          "known": 18,
+          "done": 7,
+          "pending": 9,
+          "confirmed_none": 2,
+          "awaiting": 15,
+          "future": 13,
+          "rate": 0.3888888888888889
+        },
+        {
+          "group": "少办成",
+          "cell": "own",
+          "communities": [
+            "C02",
+            "C05"
+          ],
+          "communities_n": 2,
+          "eligible": 20,
+          "prior": 0,
+          "known": 10,
+          "done": 4,
+          "pending": 4,
+          "confirmed_none": 2,
+          "awaiting": 10,
+          "future": 9,
+          "rate": 0.4
+        },
+        {
+          "group": "少办成",
+          "cell": "neighbor",
+          "communities": [
+            "C01",
+            "C03",
+            "C04",
+            "C06"
+          ],
+          "communities_n": 4,
+          "eligible": 33,
+          "prior": 1,
+          "known": 16,
+          "done": 4,
+          "pending": 10,
+          "confirmed_none": 2,
+          "awaiting": 17,
+          "future": 14,
+          "rate": 0.25
+        }
+      ],
+      "comparisons": [
+        {
+          "comparison": "一般/own vs neither",
+          "label": "一般：自身获邀 vs 自身及邻接均未获邀",
+          "group": "一般",
+          "exposed": "own",
+          "control": "neither",
+          "status": "progress_only",
+          "missing": [
+            "缺少对照组“neither”：一般组中没有社区同时满足该档（逐社区：C07=neighbor；C08=own；C09=neighbor；C10=neighbor；C11=own；C12=neighbor）"
+          ],
+          "exposed_communities": [
+            "C08",
+            "C11"
+          ],
+          "control_communities": [],
+          "exposed_eligible": 19,
+          "control_eligible": 0,
+          "exposed_known": 9,
+          "control_known": 0,
+          "exposed_done": 4,
+          "control_done": 0,
+          "exposed_awaiting": 10,
+          "control_awaiting": 0,
+          "exposed_rate": 0.4444444444444444,
+          "control_rate": null,
+          "resident_rd": null,
+          "community_rd": null,
+          "ipw_rd": null,
+          "ri_p_resident": null,
+          "ri_p_community": null,
+          "ri_p_ipw": null,
+          "ri_defined": 0,
+          "ri_total": 0,
+          "bounds": null,
+          "note": "观察窗未走完，只报告进度"
+        },
+        {
+          "comparison": "少办成/neighbor vs neither",
+          "label": "少办成：邻接获邀 vs 自身及邻接均未获邀",
+          "group": "少办成",
+          "exposed": "neighbor",
+          "control": "neither",
+          "status": "progress_only",
+          "missing": [
+            "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+          ],
+          "exposed_communities": [
+            "C01",
+            "C03",
+            "C04",
+            "C06"
+          ],
+          "control_communities": [],
+          "exposed_eligible": 33,
+          "control_eligible": 0,
+          "exposed_known": 16,
+          "control_known": 0,
+          "exposed_done": 4,
+          "control_done": 0,
+          "exposed_awaiting": 17,
+          "control_awaiting": 0,
+          "exposed_rate": 0.25,
+          "control_rate": null,
+          "resident_rd": null,
+          "community_rd": null,
+          "ipw_rd": null,
+          "ri_p_resident": null,
+          "ri_p_community": null,
+          "ri_p_ipw": null,
+          "ri_defined": 0,
+          "ri_total": 0,
+          "bounds": null,
+          "note": "观察窗未走完，只报告进度"
+        },
+        {
+          "comparison": "少办成/own vs neither",
+          "label": "少办成：自身获邀 vs 自身及邻接均未获邀",
+          "group": "少办成",
+          "exposed": "own",
+          "control": "neither",
+          "status": "progress_only",
+          "missing": [
+            "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+          ],
+          "exposed_communities": [
+            "C02",
+            "C05"
+          ],
+          "control_communities": [],
+          "exposed_eligible": 20,
+          "control_eligible": 0,
+          "exposed_known": 10,
+          "control_known": 0,
+          "exposed_done": 4,
+          "control_done": 0,
+          "exposed_awaiting": 10,
+          "control_awaiting": 0,
+          "exposed_rate": 0.4,
+          "control_rate": null,
+          "resident_rd": null,
+          "community_rd": null,
+          "ipw_rd": null,
+          "ri_p_resident": null,
+          "ri_p_community": null,
+          "ri_p_ipw": null,
+          "ri_defined": 0,
+          "ri_total": 0,
+          "bounds": null,
+          "note": "观察窗未走完，只报告进度"
+        }
+      ],
+      "execution": {
+        "deviations": [
+          {
+            "community": "C05",
+            "assigned": 1,
+            "sent": 0,
+            "planned_letters": 16,
+            "note": "已抽取但未寄出/寄件失败，属执行偏离"
+          }
+        ],
+        "cross_station": {
+          "cross_station_done": 7,
+          "all_done_receipts": 37
+        },
+        "duplicates": {
+          "cases": 93,
+          "duplicate_cases": 0,
+          "extra_receipts": 0
+        },
+        "prior_accepted": 3,
+        "followup": {
+          "done": 19,
+          "not_done": 34,
+          "unknown": 52,
+          "prior": 3
+        }
+      },
+      "community_correlation": null
+    },
+    "D": {
+      "round": "D",
+      "status": "planned",
+      "plan_date": "2026-11-03",
+      "allocation": {
+        "communities": [
+          "C04",
+          "C05",
+          "C09",
+          "C12"
+        ],
+        "letters": 48,
+        "seed": "e32a70957b1d6c5a5357bd266c1ce590e8340e4e1f27c400c80f620071052913",
+        "rule": "SHA-256(规范化设计材料) 在可识别且使每个比较都具备对照的名单中等概率抽取"
+      },
+      "support": {
+        "kind": "identifiable",
+        "feasible_n": 55,
+        "identifiable_n": 50,
+        "cluster_ready_n": 16,
+        "delivery_n": 50,
+        "effective_edges": [
+          "C01+C02",
+          "C01+C07",
+          "C02+C03",
+          "C04+C05",
+          "C05+C06",
+          "C06+C11",
+          "C07+C08",
+          "C08+C09",
+          "C10+C11",
+          "C11+C12"
+        ],
+        "minimum_opportunity_ok": true,
+        "min_exposure_prob": 0.1
+      },
+      "opportunities": [
+        {
+          "community": "C01",
+          "group": "少办成",
+          "p_own": 0.44,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.4,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C02",
+          "group": "少办成",
+          "p_own": 0.36,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.32,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C03",
+          "group": "少办成",
+          "p_own": 0.0,
+          "possible_own": false,
+          "note_own": "该轮禁止对该社区发额外邀请，结构上不可能自身获邀",
+          "p_neighbor": 0.36,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C04",
+          "group": "少办成",
+          "p_own": 0.44,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.2,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C05",
+          "group": "少办成",
+          "p_own": 0.28,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.6,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C06",
+          "group": "少办成",
+          "p_own": 0.48,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.16,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C07",
+          "group": "一般",
+          "p_own": 0.5,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.22,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C08",
+          "group": "一般",
+          "p_own": 0.0,
+          "possible_own": false,
+          "note_own": "该轮禁止对该社区发额外邀请，结构上不可能自身获邀",
+          "p_neighbor": 0.86,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C09",
+          "group": "一般",
+          "p_own": 0.54,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.0,
+          "possible_neighbor": false,
+          "note_neighbor": "全部邻接社区在该轮被禁止干预，结构上不可能邻接获邀"
+        },
+        {
+          "community": "C10",
+          "group": "一般",
+          "p_own": 0.46,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.0,
+          "possible_neighbor": false,
+          "note_neighbor": "全部邻接社区在该轮被禁止干预，结构上不可能邻接获邀"
+        },
+        {
+          "community": "C11",
+          "group": "一般",
+          "p_own": 0.0,
+          "possible_own": false,
+          "note_own": "该轮禁止对该社区发额外邀请，结构上不可能自身获邀",
+          "p_neighbor": 0.9,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C12",
+          "group": "一般",
+          "p_own": 0.5,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.0,
+          "possible_neighbor": false,
+          "note_neighbor": "全部邻接社区在该轮被禁止干预，结构上不可能邻接获邀"
+        }
+      ],
+      "comparisons": [
+        {
+          "comparison": "一般/own vs neither",
+          "group": "一般",
+          "exposed": "own",
+          "control": "neither",
+          "exposed_communities": [
+            "C09",
+            "C12"
+          ],
+          "control_communities": [
+            "C07",
+            "C10"
+          ],
+          "exposed_communities_n": 2,
+          "control_communities_n": 2,
+          "eligible_exposed": 15,
+          "eligible_control": 18,
+          "identifiable": true
+        },
+        {
+          "comparison": "少办成/neighbor vs neither",
+          "group": "少办成",
+          "exposed": "neighbor",
+          "control": "neither",
+          "exposed_communities": [
+            "C06"
+          ],
+          "control_communities": [
+            "C01",
+            "C02",
+            "C03"
+          ],
+          "exposed_communities_n": 1,
+          "control_communities_n": 3,
+          "eligible_exposed": 8,
+          "eligible_control": 27,
+          "identifiable": true
+        },
+        {
+          "comparison": "少办成/own vs neither",
+          "group": "少办成",
+          "exposed": "own",
+          "control": "neither",
+          "exposed_communities": [
+            "C04",
+            "C05"
+          ],
+          "control_communities": [
+            "C01",
+            "C02",
+            "C03"
+          ],
+          "exposed_communities_n": 2,
+          "control_communities_n": 3,
+          "eligible_exposed": 18,
+          "eligible_control": 27,
+          "identifiable": true
+        }
+      ],
+      "power": [
+        {
+          "contrast": "一般/own vs neither",
+          "baseline_rate": 0.37628865979381443,
+          "mde_resident": 0.47449463949967247,
+          "mde_community": 0.22810859208343126,
+          "resident_n": 33,
+          "community_n": 4,
+          "design_effect": 0.23111102680974907,
+          "note": "社区层可检出差按社区间实际方差估计；居民层按二项近似",
+          "between_community_variance": 0.006629421209573471,
+          "community_df": 2
+        },
+        {
+          "contrast": "少办成/neighbor vs neither",
+          "baseline_rate": 0.37628865979381443,
+          "mde_resident": 0.5463404665392346,
+          "mde_community": 0.26339711408767114,
+          "resident_n": 35,
+          "community_n": 4,
+          "design_effect": 0.23243166124866185,
+          "note": "社区层可检出差按社区间实际方差估计；居民层按二项近似",
+          "between_community_variance": 0.006629421209573471,
+          "community_df": 2
+        },
+        {
+          "contrast": "少办成/own vs neither",
+          "baseline_rate": 0.37628865979381443,
+          "mde_resident": 0.4129945730382343,
+          "mde_community": 0.2082337024080661,
+          "resident_n": 45,
+          "community_n": 5,
+          "design_effect": 0.254222129490724,
+          "note": "社区层可检出差按社区间实际方差估计；居民层按二项近似",
+          "between_community_variance": 0.006629421209573471,
+          "community_df": 3
+        }
+      ],
+      "notes": [
+        "名单按设计材料规范化后以 SHA-256 为种子抽取；同一材料重跑得到同一名单",
+        "执行时必须按此名单寄出；寄件失败、错寄或顾问临时借调只记录为执行偏离，不得据此重新划分试验组"
+      ],
+      "excluded_allocations": [
+        {
+          "communities": [
+            "C02",
+            "C05",
+            "C07",
+            "C09"
+          ],
+          "letters": 48,
+          "missing": [
+            {
+              "comparison": "少办成/neighbor vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            },
+            {
+              "comparison": "少办成/own vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            }
+          ]
+        },
+        {
+          "communities": [
+            "C02",
+            "C05",
+            "C07",
+            "C12"
+          ],
+          "letters": 50,
+          "missing": [
+            {
+              "comparison": "少办成/neighbor vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            },
+            {
+              "comparison": "少办成/own vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            }
+          ]
+        },
+        {
+          "communities": [
+            "C02",
+            "C05",
+            "C09",
+            "C10"
+          ],
+          "letters": 49,
+          "missing": [
+            {
+              "comparison": "少办成/neighbor vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            },
+            {
+              "comparison": "少办成/own vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            }
+          ]
+        },
+        {
+          "communities": [
+            "C02",
+            "C05",
+            "C09",
+            "C12"
+          ],
+          "letters": 47,
+          "missing": [
+            {
+              "comparison": "少办成/neighbor vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            },
+            {
+              "comparison": "少办成/own vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            }
+          ]
+        },
+        {
+          "communities": [
+            "C02",
+            "C05",
+            "C10",
+            "C12"
+          ],
+          "letters": 51,
+          "missing": [
+            {
+              "comparison": "少办成/neighbor vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            },
+            {
+              "comparison": "少办成/own vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            }
+          ]
+        }
+      ],
+      "unsent_rechecks": [
+        {
+          "round": "C",
+          "effective_edges": [
+            "C01+C02",
+            "C02+C03",
+            "C02+C08",
+            "C04+C05",
+            "C05+C06",
+            "C07+C08",
+            "C08+C09",
+            "C10+C11",
+            "C11+C12"
+          ],
+          "removed_edges": [
+            "C05+C10"
+          ],
+          "sent_communities": [
+            "C02",
+            "C08",
+            "C11"
+          ],
+          "unsent_communities": [
+            "C05"
+          ],
+          "cell_changes": [],
+          "identifiable_under_registered": false,
+          "identifiable_under_effective": false,
+          "status": "batch_no_longer_identifiable",
+          "note": "已寄出批次按原记录复盘，不因后续重新抽取抹掉；未寄出批次需按有效关系重新核对。若整批在有效关系下失去对照，剩余部分不能当作原设计的继续执行。"
+        }
+      ]
+    }
+  },
+  "prior_rounds": [
+    {
+      "round": "A",
+      "assigned": [
+        "C02",
+        "C04",
+        "C07",
+        "C10"
+      ],
+      "sent": [
+        "C02",
+        "C04",
+        "C07",
+        "C10"
+      ],
+      "assigned_total": 4,
+      "sent_total": 4
+    },
+    {
+      "round": "B",
+      "assigned": [
+        "C01",
+        "C05",
+        "C09",
+        "C12"
+      ],
+      "sent": [
+        "C01",
+        "C05",
+        "C09",
+        "C12"
+      ],
+      "assigned_total": 4,
+      "sent_total": 4
+    },
+    {
+      "round": "C",
+      "assigned": [
+        "C02",
+        "C05",
+        "C08",
+        "C11"
+      ],
+      "sent": [
+        "C02",
+        "C08",
+        "C11"
+      ],
+      "assigned_total": 4,
+      "sent_total": 3
+    }
+  ],
+  "plan": {
+    "D": {
+      "round": "D",
+      "status": "planned",
+      "plan_date": "2026-11-03",
+      "allocation": {
+        "communities": [
+          "C04",
+          "C05",
+          "C09",
+          "C12"
+        ],
+        "letters": 48,
+        "seed": "e32a70957b1d6c5a5357bd266c1ce590e8340e4e1f27c400c80f620071052913",
+        "rule": "SHA-256(规范化设计材料) 在可识别且使每个比较都具备对照的名单中等概率抽取"
+      },
+      "support": {
+        "kind": "identifiable",
+        "feasible_n": 55,
+        "identifiable_n": 50,
+        "cluster_ready_n": 16,
+        "delivery_n": 50,
+        "effective_edges": [
+          "C01+C02",
+          "C01+C07",
+          "C02+C03",
+          "C04+C05",
+          "C05+C06",
+          "C06+C11",
+          "C07+C08",
+          "C08+C09",
+          "C10+C11",
+          "C11+C12"
+        ],
+        "minimum_opportunity_ok": true,
+        "min_exposure_prob": 0.1
+      },
+      "opportunities": [
+        {
+          "community": "C01",
+          "group": "少办成",
+          "p_own": 0.44,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.4,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C02",
+          "group": "少办成",
+          "p_own": 0.36,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.32,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C03",
+          "group": "少办成",
+          "p_own": 0.0,
+          "possible_own": false,
+          "note_own": "该轮禁止对该社区发额外邀请，结构上不可能自身获邀",
+          "p_neighbor": 0.36,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C04",
+          "group": "少办成",
+          "p_own": 0.44,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.2,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C05",
+          "group": "少办成",
+          "p_own": 0.28,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.6,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C06",
+          "group": "少办成",
+          "p_own": 0.48,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.16,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C07",
+          "group": "一般",
+          "p_own": 0.5,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.22,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C08",
+          "group": "一般",
+          "p_own": 0.0,
+          "possible_own": false,
+          "note_own": "该轮禁止对该社区发额外邀请，结构上不可能自身获邀",
+          "p_neighbor": 0.86,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C09",
+          "group": "一般",
+          "p_own": 0.54,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.0,
+          "possible_neighbor": false,
+          "note_neighbor": "全部邻接社区在该轮被禁止干预，结构上不可能邻接获邀"
+        },
+        {
+          "community": "C10",
+          "group": "一般",
+          "p_own": 0.46,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.0,
+          "possible_neighbor": false,
+          "note_neighbor": "全部邻接社区在该轮被禁止干预，结构上不可能邻接获邀"
+        },
+        {
+          "community": "C11",
+          "group": "一般",
+          "p_own": 0.0,
+          "possible_own": false,
+          "note_own": "该轮禁止对该社区发额外邀请，结构上不可能自身获邀",
+          "p_neighbor": 0.9,
+          "possible_neighbor": true,
+          "note_neighbor": ""
+        },
+        {
+          "community": "C12",
+          "group": "一般",
+          "p_own": 0.5,
+          "possible_own": true,
+          "note_own": "",
+          "p_neighbor": 0.0,
+          "possible_neighbor": false,
+          "note_neighbor": "全部邻接社区在该轮被禁止干预，结构上不可能邻接获邀"
+        }
+      ],
+      "comparisons": [
+        {
+          "comparison": "一般/own vs neither",
+          "group": "一般",
+          "exposed": "own",
+          "control": "neither",
+          "exposed_communities": [
+            "C09",
+            "C12"
+          ],
+          "control_communities": [
+            "C07",
+            "C10"
+          ],
+          "exposed_communities_n": 2,
+          "control_communities_n": 2,
+          "eligible_exposed": 15,
+          "eligible_control": 18,
+          "identifiable": true
+        },
+        {
+          "comparison": "少办成/neighbor vs neither",
+          "group": "少办成",
+          "exposed": "neighbor",
+          "control": "neither",
+          "exposed_communities": [
+            "C06"
+          ],
+          "control_communities": [
+            "C01",
+            "C02",
+            "C03"
+          ],
+          "exposed_communities_n": 1,
+          "control_communities_n": 3,
+          "eligible_exposed": 8,
+          "eligible_control": 27,
+          "identifiable": true
+        },
+        {
+          "comparison": "少办成/own vs neither",
+          "group": "少办成",
+          "exposed": "own",
+          "control": "neither",
+          "exposed_communities": [
+            "C04",
+            "C05"
+          ],
+          "control_communities": [
+            "C01",
+            "C02",
+            "C03"
+          ],
+          "exposed_communities_n": 2,
+          "control_communities_n": 3,
+          "eligible_exposed": 18,
+          "eligible_control": 27,
+          "identifiable": true
+        }
+      ],
+      "power": [
+        {
+          "contrast": "一般/own vs neither",
+          "baseline_rate": 0.37628865979381443,
+          "mde_resident": 0.47449463949967247,
+          "mde_community": 0.22810859208343126,
+          "resident_n": 33,
+          "community_n": 4,
+          "design_effect": 0.23111102680974907,
+          "note": "社区层可检出差按社区间实际方差估计；居民层按二项近似",
+          "between_community_variance": 0.006629421209573471,
+          "community_df": 2
+        },
+        {
+          "contrast": "少办成/neighbor vs neither",
+          "baseline_rate": 0.37628865979381443,
+          "mde_resident": 0.5463404665392346,
+          "mde_community": 0.26339711408767114,
+          "resident_n": 35,
+          "community_n": 4,
+          "design_effect": 0.23243166124866185,
+          "note": "社区层可检出差按社区间实际方差估计；居民层按二项近似",
+          "between_community_variance": 0.006629421209573471,
+          "community_df": 2
+        },
+        {
+          "contrast": "少办成/own vs neither",
+          "baseline_rate": 0.37628865979381443,
+          "mde_resident": 0.4129945730382343,
+          "mde_community": 0.2082337024080661,
+          "resident_n": 45,
+          "community_n": 5,
+          "design_effect": 0.254222129490724,
+          "note": "社区层可检出差按社区间实际方差估计；居民层按二项近似",
+          "between_community_variance": 0.006629421209573471,
+          "community_df": 3
+        }
+      ],
+      "notes": [
+        "名单按设计材料规范化后以 SHA-256 为种子抽取；同一材料重跑得到同一名单",
+        "执行时必须按此名单寄出；寄件失败、错寄或顾问临时借调只记录为执行偏离，不得据此重新划分试验组"
+      ],
+      "excluded_allocations": [
+        {
+          "communities": [
+            "C02",
+            "C05",
+            "C07",
+            "C09"
+          ],
+          "letters": 48,
+          "missing": [
+            {
+              "comparison": "少办成/neighbor vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            },
+            {
+              "comparison": "少办成/own vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            }
+          ]
+        },
+        {
+          "communities": [
+            "C02",
+            "C05",
+            "C07",
+            "C12"
+          ],
+          "letters": 50,
+          "missing": [
+            {
+              "comparison": "少办成/neighbor vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            },
+            {
+              "comparison": "少办成/own vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            }
+          ]
+        },
+        {
+          "communities": [
+            "C02",
+            "C05",
+            "C09",
+            "C10"
+          ],
+          "letters": 49,
+          "missing": [
+            {
+              "comparison": "少办成/neighbor vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            },
+            {
+              "comparison": "少办成/own vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            }
+          ]
+        },
+        {
+          "communities": [
+            "C02",
+            "C05",
+            "C09",
+            "C12"
+          ],
+          "letters": 47,
+          "missing": [
+            {
+              "comparison": "少办成/neighbor vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            },
+            {
+              "comparison": "少办成/own vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            }
+          ]
+        },
+        {
+          "communities": [
+            "C02",
+            "C05",
+            "C10",
+            "C12"
+          ],
+          "letters": 51,
+          "missing": [
+            {
+              "comparison": "少办成/neighbor vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            },
+            {
+              "comparison": "少办成/own vs neither",
+              "reasons": [
+                "缺少对照组“neither”：少办成组中没有社区同时满足该档（逐社区：C01=neighbor；C02=own；C03=neighbor；C04=neighbor；C05=own；C06=neighbor）"
+              ]
+            }
+          ]
+        }
+      ],
+      "unsent_rechecks": [
+        {
+          "round": "C",
+          "effective_edges": [
+            "C01+C02",
+            "C02+C03",
+            "C02+C08",
+            "C04+C05",
+            "C05+C06",
+            "C07+C08",
+            "C08+C09",
+            "C10+C11",
+            "C11+C12"
+          ],
+          "removed_edges": [
+            "C05+C10"
+          ],
+          "sent_communities": [
+            "C02",
+            "C08",
+            "C11"
+          ],
+          "unsent_communities": [
+            "C05"
+          ],
+          "cell_changes": [],
+          "identifiable_under_registered": false,
+          "identifiable_under_effective": false,
+          "status": "batch_no_longer_identifiable",
+          "note": "已寄出批次按原记录复盘，不因后续重新抽取抹掉；未寄出批次需按有效关系重新核对。若整批在有效关系下失去对照，剩余部分不能当作原设计的继续执行。"
+        }
+      ]
+    }
+  }
+}

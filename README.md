@@ -11,9 +11,19 @@
 ```sh
 python3 catalog.py
 python3 -m unittest discover -s tests -v
+python3 -m pilot --out reports
 ```
 
 例如，`python3 catalog.py --table rounds` 可读取该表原始记录。资料检查核对结构、唯一键及部分业务引用。
+
+`python3 -m pilot --out reports` 生成按轮次的复盘报告、下一轮投放计划、机器可读证据和发放清单：
+
+- `reports/rounds/<轮次>.md`。已寄出轮次按预先约定的社区分配分档，列出可识别比较、对应对照社区、可观察人数、未查齐人数、随机化推断结果和解释边界；观察窗未走完的轮次只报告进度。尚未寄出的轮次给出下一轮名单及补证所需证据量。
+- `reports/summary.md`。轮次状态索引、已寄出批次、未寄出批次复核和下一轮要点。
+- `reports/evidence.json`。与报告同一批数字，便于机读核对。
+- `reports/allocation_<轮次>.csv`。下一轮发放清单。
+
+分析口径不把居民后来实际到过的站点当分组：暴露档只由轮前锁定的社区和该轮的社区分配决定。已寄出的轮次按原记录复盘；后续顾问借调只影响尚未寄出批次的计划，不会改写历史分组。寄件失败、错寄和临时借调记为执行偏离，不用于重新划分试验组。
 
 ## 交换表
 
